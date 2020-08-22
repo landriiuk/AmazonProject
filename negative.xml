@@ -1,0 +1,12 @@
+<suite name="NegativeSuite" verbose="1">
+    <test name="Negative">
+        <classes>
+            <class name="tests.SearchResultTest">
+                <methods>
+                    <include name="checkIfInvalidElementNotFound"/>
+                </methods>
+            </class>
+            <class name="tests.RegisterPageTest"/>
+        </classes>
+    </test>
+</suite>

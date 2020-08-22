@@ -1,0 +1,17 @@
+<suite name="PositiveSuite1" verbose="1">
+    <test name="SearchResult">
+        <classes>
+            <class name="tests.SearchResultTest">
+                <methods>
+                    <exclude name="checkIfInvalidElementNotFound"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Cart">
+        <classes>
+            <class name="tests.CartPageTest"/>
+        </classes>
+    </test>
+</suite>
